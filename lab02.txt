@@ -1,0 +1,25 @@
+Etap 1 (1 pkt)
+Stwórz szkielet programu wraz z funkcją main.
+Wypisz informację „Hello, world!” na rozpoczęcie programu oraz „Goodbye, world!” na
+zakończenie programu.
+W funkcji main zadeklaruj statyczną tablicę jednowymiarową zawierającą 10 liczb całkowitych.
+Napisz funkcję print, która wyświetla wszystkie elementy z tablicy. Funkcja jest typu void,
+parametry reprezentują tablicę liczb całkowitych oraz jej rozmiar.
+Etap 2 (1.5 pkt)
+Napisz funkcję, która wykorzystując generator liczb pseudolosowych, wypełnia tablicę losowymi,
+parzystymi liczbami całkowitymi z zakresu [10, 26] (zakres zawiera liczby graniczne). Funkcja jest
+typu void, parametry reprezentują tablicę liczb całkowitych oraz jej rozmiar.
+Etap 3 (1.5 pkt)
+Napisz funkcję isEven, która sprawdza, czy wszystkie liczby w danej tablicy są parzyste i zwraca 1
+w takim przypadku lub 0 w przeciwnym przypadku. Parametry reprezentują tablicę liczb
+całkowitych oraz jej rozmiar.
+Etap 4 (1.5 pkt)
+Napisz funkcję isAvgEven, która sprawdza, czy średnia arytmetyczna wartości z tablicy
+zaokrąglona w dół daje wartość parzystą. Funkcja zwraca 1 w takim przypadku lub 0 w
+przeciwnym przypadku. Parametry reprezentują tablicę liczb całkowitych oraz jej rozmiar.
+Zaokrąglenie w dół oznacza, że np. 4.8 należy zaokrąglić do 4.
+Etap 5 (1.5 pkt)
+Sczytaj wartość całkowitą od użytkownika.
+Napisz funkcję fillMax, która nadpisuje każdy element z tablicy, który jest większy od wartości x
+podanej przez użytkownika, wartością maksymalnego elementu z tablicy. Funkcja jest typu void,
+parametry reprezentują tablicę liczb całkowitych, jej rozmiar oraz wartość x.
