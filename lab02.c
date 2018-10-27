@@ -5,6 +5,38 @@
 #include<limits.h>
 #define SIZE 10
 
+void print(int[],int);
+void fill(int[],int);
+int isEven(int[],int);
+int sum(int[], int);
+int isAvgEven(int[],int);
+int findMax(int[],int);
+void fillMax(int[],int,int);
+
+
+
+int main(int argc, char* argv[])
+{    
+    int i;
+    int Array[SIZE];
+    
+    
+    printf("Hello, world!\n");
+    srand(time(NULL));
+    
+    fill(Array,SIZE);
+    print(Array,SIZE);
+    printf("%d\n", isEven(Array,SIZE));
+    printf("%d\n", isAvgEven(Array,SIZE));
+    fillMax(Array,SIZE,0);
+    print(Array,SIZE);
+    printf("Goodbye, world!\n");
+    return 0;
+}
+
+
+
+
 void print(int t[],int s)
 {
     int i;
@@ -76,23 +108,4 @@ void fillMax(int t[], int s, int x)
             t[i] = v;
     }
     return;
-}
-
-int main(int argc, char* argv[])
-{    
-    int i;
-    int Array[SIZE];
-    
-    
-    printf("Hello, world!\n");
-    srand(time(NULL));
-    
-    fill(Array,SIZE);
-    print(Array,SIZE);
-    printf("%d\n", isEven(Array,SIZE));
-    printf("%d\n", isAvgEven(Array,SIZE));
-    fillMax(Array,SIZE,2);
-    print(Array,SIZE);
-    printf("Goodbye, world!\n");
-    return 0;
 }
